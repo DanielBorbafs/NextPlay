@@ -5,4 +5,4 @@ Lucros e Receitas: Análise de receitas e margens de lucro com base em dados his
 Despesas de Marketing: Acompanhamento dos custos relacionados a campanhas publicitárias.
 Projeções de Faturamento: Previsões futuras com base em tendências passadas e presentes.
 A solução inclui a criação de uma estrutura de banco de dados para armazenamento e análise desses dados, otimizando a geração de relatórios para tomadas de decisão estratégicas.
-![Descrição da Imagem](DIAGRAMA.png)
+![Descrição da Imagem](diagramaDB.svg)
