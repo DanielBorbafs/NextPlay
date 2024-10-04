@@ -6,3 +6,4 @@ Despesas de Marketing: Acompanhamento dos custos relacionados a campanhas public
 Projeções de Faturamento: Previsões futuras com base em tendências passadas e presentes.
 A solução inclui a criação de uma estrutura de banco de dados para armazenamento e análise desses dados, otimizando a geração de relatórios para tomadas de decisão estratégicas.
 <img>https://github.com/DanielBorbafs/NextPlay/blob/main/DIAGRAMA.png</img>
+![Descrição da Imagem]([caminho/para/imagem.extensão](https://github.com/DanielBorbafs/NextPlay/blob/main/DIAGRAMA.png)
