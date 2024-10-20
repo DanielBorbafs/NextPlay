@@ -9,3 +9,7 @@ A solução inclui a criação de uma estrutura de banco de dados para armazenam
 
 
 ![Descrição da Imagem](lojaFisica.svg)
+
+
+
+![Descrição da Imagem](ecommerce.svg)
