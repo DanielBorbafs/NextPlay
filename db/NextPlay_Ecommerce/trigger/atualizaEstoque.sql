@@ -1,0 +1,11 @@
+CREATE TRIGGER atualizarEstoque
+ON [NEXTPLAY ECOMMERCE].dbo.[ITENS VENDAS]
+AFTER INSERT 
+AS
+BEGIN
+    -- Atualizar o estoque na base de dados da loja física
+    UPDATE [NEXTPLAY FISICA].dbo.PRODUTOS
+    SET QTD_ESTOQUE = QTD_ESTOQUE - i.QUANTIDADE
+    FROM [NEXTPLAY FISICA].dbo.PRODUTOS p
+    INNER JOIN inserted i ON p.ID_PRODUTO = i.ID_PRODUTO
+END
