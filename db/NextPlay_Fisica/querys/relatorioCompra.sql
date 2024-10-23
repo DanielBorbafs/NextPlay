@@ -1,0 +1,12 @@
+/* Essa query traz um relatorio das compras feitas,
+com o nome dos itens e dos clientes e o metodo de pagamento
+*/
+SELECT C.NOME, V.METODO_PAGAMENTO, I.PRECO_UNITARIO, P.NOME
+FROM VENDAS V
+INNER JOIN CLIENTES C
+ON C.ID_CLIENTE = V.ID_CLIENTE
+INNER JOIN [ITENS VENDAS] I
+ON I.ID_VENDA = V.ID_VENDAS
+INNER JOIN PRODUTOS P 
+ON P.ID_PRODUTO = I.ID_PRODUTO
+GO
