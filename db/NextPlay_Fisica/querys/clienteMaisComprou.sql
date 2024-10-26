@@ -1,5 +1,7 @@
-/* Trazendo as informações dos clientes que mais compraram */
-SELECT NOME, TELEFONE, EMAIL, [TOTAL GASTO], SEXO FROM CLIENTES
-ORDER BY [TOTAL GASTO] 
-DESC
+/* Trazendo as informações dos clientes que mais gastaram */
+SELECT C.NOME, C.EMAIL, V.VALOR_TOTAL AS [VALOR GASTO]
+FROM CLIENTES C
+INNER JOIN VENDAS V
+ON C.ID_CLIENTE = V.ID_CLIENTE
+ORDER BY VALOR_TOTAL DESC
 GO
