@@ -1,9 +1,14 @@
+/* Filtrando lucro total */
+
+SELECT SUM(VALOR_TOTAL) AS [VALOR TOTAL]
+FROM VENDAS
+GO
+
 /* Filtro lucro por dia*/
 SELECT DATA_VENDA, SUM(VALOR_TOTAL) AS LUCRO 
 FROM VENDAS
 GROUP BY DATA_VENDA
 GO
-
 
 /* Filtrando por mês */
 SELECT FORMAT(DATA_VENDA, 'yyyy-MM') AS MES_VENDA,
