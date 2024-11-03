@@ -1,0 +1,5 @@
+-- Desativar a restrição
+ALTER TABLE [dbo].[ITENS VENDAS] NOCHECK CONSTRAINT [FK_ID_PRODUTO];
+
+-- Reativar a restrição
+ALTER TABLE [dbo].[ITENS VENDAS] CHECK CONSTRAINT [FK_ID_PRODUTO];
