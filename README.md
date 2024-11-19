@@ -1,3 +1,3 @@
 
 
-![Descrição da Imagem](capaGithub.svg)
+![Descrição da Imagem](capaNextplay.svg)
