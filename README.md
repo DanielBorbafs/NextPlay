@@ -1,3 +1,3 @@
 
 
-![Descrição da Imagem](capaNextplay.svg)
+![Descrição da Imagem](nexplay.png)
