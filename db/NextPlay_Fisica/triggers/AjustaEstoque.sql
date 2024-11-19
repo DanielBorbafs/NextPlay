@@ -22,3 +22,6 @@ BEGIN
     INNER JOIN inserted i ON p.ID_PRODUTO = i.ID_PRODUTO
 END
 GO
+
+-- As bases de produtos agora serão diferentes, foram separadas devido a regra de negócio. Então:
+drop trigger trg_AjustaEstoque
