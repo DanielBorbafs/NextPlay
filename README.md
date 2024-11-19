@@ -1,3 +1,3 @@
 
 
-![Descrição da Imagem](nexplay.png)
+![Descrição da Imagem](nextplay.png)
