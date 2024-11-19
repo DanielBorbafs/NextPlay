@@ -1,3 +1,3 @@
 
 
-![Descrição da Imagem](capaGithub.png)
+![Descrição da Imagem](capaGithub.svg)
